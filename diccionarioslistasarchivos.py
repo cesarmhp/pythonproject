@@ -57,6 +57,13 @@ while True:
                         break
                     if desicion == 'n':
                         break
+    
+    if opcion == 3:
+        articulo=input("Que articulo deseas eliminar: ")
+        if articulo in lista:
+            print("Hay: ",diccionario[articulo]," articulo(s) de: ",articulo)
+        
+        
         
                         
                         
